@@ -1,0 +1,10 @@
+.transactionHistory {
+    max-width: 270px;
+    
+    border: 1px solid #eeeeee;
+  }
+  
+  th {
+    background-color: aqua;
+  }
+  
