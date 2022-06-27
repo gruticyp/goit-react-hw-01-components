@@ -3,17 +3,17 @@
     height: 10px;
     border-radius: 50%;
   
-    background-color: red;
+    background-color: rgb(255, 157, 0);
   }
   
   .isActive {
     composes: status;
-    background-color: green;
+    background-color: rgb(104, 255, 104);
   }
   
   .isUnactive {
     composes: status;
-    background-color: red;
+    background-color: rgba(55, 0, 255, 0.233);
   }
   
   .item {
