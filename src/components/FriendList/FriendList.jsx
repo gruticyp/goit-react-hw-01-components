@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 // import s from './FriendList.module.css';
 import FriendLIstItem from 'components/FriendLIstItem/FriendListItem';
 
-export default function FriendList({friends = 'sorry, no friends'}) {
+export default function FriendList({friends = []}) {
   return (
     <ul className="friend-list">
       {friends.map(({avatar, name, isOnline, id }) => (

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import s from './Statictics.module.css';
 
-export default function Statistics({title, stats = 'nothing'}) {
+export default function Statistics({title, stats = []}) {
   return (
     <section className="statistics">
       {title && <h2 className="title">{title}</h2>}
